@@ -10,7 +10,7 @@ import java.util.List;
 @Setter
 
 @Entity // Define que é uma tabela para o database
-@Table(name = "users") // Especificar o nome da tabela no Database
+@Table(name = "tb_users") // Especificar o nome da tabela no Database
 public class User {
     @Id // Define que é uma chave primária
     @GeneratedValue(strategy = GenerationType.IDENTITY) // Define que o ID será gerado automaticamente de modo auto incremental
@@ -21,6 +21,6 @@ public class User {
     @OneToOne // Define que o relacionamento é exclusivo um-para-um
     private LibraryWallet libraryWallet;
 
-    @OneToMany(mappedBy = "user") //Define que o relacionamento é um-para-muitos e diz para o databse que
+    @OneToMany(mappedBy = "user") //Define que o relacionamento é um-para-muitos e diz para o database que o atributo user em Loan, está com a chave estrangeira
     private List<Loan> loans;
 }

@@ -10,7 +10,7 @@ import java.util.Date;
 @Getter
 @Setter
 @Entity
-@Table(name = "wallet")
+@Table(name = "tb_library_wallets")
 public class LibraryWallet {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -18,7 +18,7 @@ public class LibraryWallet {
     private Date emissionDate;
     private boolean isValid;
 
-    @OneToOne(mappedBy = "user")
+    @OneToOne(mappedBy = "libraryWallet")
     private User user;
 
 }
