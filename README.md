@@ -1,4 +1,19 @@
+<div align="center">
+
 # API de biblioteca
+
+Usuários, carteirinhas e empréstimos com persistência relacional.
+
+  <img alt="Java 25" src="https://img.shields.io/badge/Java%2025-1a1b27?style=flat-square" />
+  <img alt="Spring Boot" src="https://img.shields.io/badge/Spring%20Boot-1a1b27?style=flat-square" />
+  <img alt="JPA" src="https://img.shields.io/badge/JPA-1a1b27?style=flat-square" />
+  <img alt="MySQL" src="https://img.shields.io/badge/MySQL-1a1b27?style=flat-square" />
+
+**Projeto de estudo**
+
+</div>
+
+---
 
 API de estudo em Java e Spring Boot para praticar persistência e relacionamentos entre usuários, carteirinhas de biblioteca e empréstimos.
 
@@ -81,4 +96,3 @@ O teste existente verifica o carregamento do contexto Spring e depende da config
 Este repositório demonstra mapeamentos JPA e operações básicas. Os controllers acessam diretamente os repositories e recebem entidades no corpo das requisições.
 
 Melhorias previstas: separar regras em serviços, criar DTOs, validar entradas, definir respostas para registros inexistentes, controlar a serialização dos relacionamentos bidirecionais e adicionar testes de comportamento.
-
