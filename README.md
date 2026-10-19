@@ -41,8 +41,8 @@ Java 25, Spring Boot 4.0.3, Spring Web MVC, Spring Data JPA, Hibernate, MySQL, L
 2. Clone o projeto:
 
 ```bash
-git clone https://github.com/andrezon04/library-springboot-relationship.git
-cd library-springboot-relationship
+git clone https://github.com/andrezon04/spring-boot-library-api.git
+cd spring-boot-library-api
 ```
 
 3. Crie o banco de dados:
