@@ -17,6 +17,12 @@ Usuários, carteirinhas e empréstimos com persistência relacional.
 
 API de estudo em Java e Spring Boot para praticar persistência e relacionamentos entre usuários, carteirinhas de biblioteca e empréstimos.
 
+## Foco técnico
+
+- Modelagem de relacionamentos um para um e muitos para um com JPA/Hibernate.
+- Exposição de operações HTTP em controllers Spring MVC.
+- Persistência de usuários, carteirinhas e empréstimos em MySQL.
+
 ## Tecnologias
 
 Java 25, Spring Boot 4.0.3, Spring Web MVC, Spring Data JPA, Hibernate, MySQL, Lombok e Maven Wrapper.
